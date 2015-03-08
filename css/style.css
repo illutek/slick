@@ -1,0 +1,79 @@
+/**
+ * Created by Stefan on 8/03/2015.
+ * illutek
+ */
+
+.slick-slide .image{padding:10px;}
+
+/*aangapast */
+.slider-for {
+    height: 600px;
+}
+.slider-for img {
+    border:5px solid #FFF;
+    display:block;
+    height:auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider-nav img{
+    border:5px solid #FFF;
+    display:block;
+    width:100%;
+    height:100px;
+}
+.slider-nav {
+    width: 40%;
+}
+
+.slick-slide img.slick-loading{border:0 }
+.slick-slider{margin:10px auto 50px;}
+
+body,html{
+    background:#000;
+    height:100%;
+    line-height:1;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+/*
+*media query's
+*/
+
+@media only screen and (max-width: 1024px) {
+    /* css code voor tablets in landscape mode */
+}
+
+@media only screen and (max-width: 960px) {
+    /* css code voor tablets in portrait mode */
+}
+
+@media (max-width: 768px) {
+    .slider-for {
+        height: 500px;
+    }
+    .slider-for img {
+        width: 100%;
+        height:auto;
+    }
+    .slider-nav img{
+        height:80px;
+    }
+    .slider-nav {
+        width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    /* css code voor smartphones in portrait mode */
+    ul.nav li a{display:block;font-size:14px;}
+    .slider-for {
+        height: 400px;
+    }
+    .slider-nav {
+        width: 100%;
+    }
+}
